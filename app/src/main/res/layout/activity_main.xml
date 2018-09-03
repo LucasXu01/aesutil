@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.xujinjin.lucas.utilaes.MainActivity">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="加密内容："
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="19dp"/>
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="加密秘钥："
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tv1"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="19dp"/>
+
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_toRightOf="@+id/tv1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="26dp"
+        />
+
+    <EditText
+        android:id="@+id/et2"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_toRightOf="@+id/tv2"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/tv1"
+        android:layout_marginTop="26dp"
+        />
+
+    <Button
+        android:id="@+id/bt"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:text="AES加密"
+        android:layout_centerInParent="true"/>
+
+    <Button
+        android:id="@+id/bt2"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:text="AES解密"
+        android:layout_below="@+id/bt"
+        android:layout_marginTop="6dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="80dp"/>
+
+</RelativeLayout>
