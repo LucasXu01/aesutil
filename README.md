@@ -1,4 +1,6 @@
 # aesutil
+ ![img](https://github.com/LucasXu01/aesutil/blob/master/aesutil.gif)
+ 
 算法：AES
 
 模式：ECB
